@@ -1,0 +1,57 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="#3A8DB3"
+        android:weightSum="7"
+        >
+        <TextView
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="0.2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="STT"
+            android:layout_gravity="center"
+            android:textColor="#F8F8F8"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:gravity="left"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="2.8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ma lop"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textColor="#F8F8F8"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:gravity="left"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ten lop"
+            android:layout_gravity="center"
+            android:textColor="#F8F8F8"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+
+    </LinearLayout>
+    <ListView
+        android:id="@+id/lv_list_class"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+
+</LinearLayout>

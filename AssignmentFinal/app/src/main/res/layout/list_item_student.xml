@@ -1,0 +1,34 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="3"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#52B0FC"
+    >
+    <TextView
+        android:id="@+id/tv_stt"
+        android:textColor="#fff"
+
+        android:textSize="20sp"
+        android:text="STT"
+        android:layout_weight="0.1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_name"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:text="Ho ten"
+        android:layout_weight="1.6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_date"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:text="date"
+        android:layout_weight="1.3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
